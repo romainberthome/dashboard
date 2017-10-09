@@ -20,6 +20,10 @@ boddy{
   font-family: "Roboto";
 }
 
+a{
+  text-decoration: none;
+}
+
 /* Sidebar css */
 
 #sidebar{
@@ -62,6 +66,7 @@ boddy{
 .sidebar-wraper ul{
   list-style-type: none;
   color: #fff;
+  padding-left: 0px;
 }
 
 .sidebar-wraper li{
@@ -73,6 +78,12 @@ boddy{
   padding-top: 10px;
   padding-bottom: 10px;
   text-decoration: none;
+  color: #fff;
+  margin: 5px 15px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: block;
+  min-height: 50px;
 }
 
 .sidebar-wraper li>a>p{
@@ -81,4 +92,12 @@ boddy{
   line-height: 30px;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.sidebar-wraper li>i{
+  color: #fff;
+}
+
+.sidebar.nav.li.active >a{
+  background: hsla(0,0%,100%,.23);
 }
