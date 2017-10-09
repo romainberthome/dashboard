@@ -1,0 +1,84 @@
+/* Bootstrap adjustments */
+
+.col-md-10{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-md-2{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar{
+  min-height: 60px;
+}
+
+/* Body */
+
+boddy{
+  font-family: "Roboto";
+}
+
+/* Sidebar css */
+
+#sidebar{
+  background-color: #000;
+  opacity: .33;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.sidebar-background{
+  background-image: url("http://lbd-react.creative-tim.com/static/media/sidebar-3.34535b95.jpg");
+  height: 100%;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.sidebar-logo{
+  height: 60px;
+  padding: 15px;
+  border-bottom: 1px solid #fff;
+}
+
+.company-logo{
+  width: 40px;
+  float: left;
+}
+
+.sidebar-wraper{
+  padding-top: 30px;
+}
+
+.sidebar-wraper i{
+  float: left;
+  padding-right: 5px;
+}
+
+.sidebar-wraper ul{
+  list-style-type: none;
+  color: #fff;
+}
+
+.sidebar-wraper li{
+  height: 50px;
+}
+
+.sidebar-wraper li>a{
+  height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.sidebar-wraper li>a>p{
+  height: 30px;
+  margin: 0px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
